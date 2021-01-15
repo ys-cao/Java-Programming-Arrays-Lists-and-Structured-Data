@@ -1,4 +1,3 @@
-
 /**
  * Write a description of WordFrequencies here.
  * 
@@ -18,11 +17,13 @@ public class WordFrequencies {
     }
 
     private void findUnique() {
+        myWords.clear();
+        myFreqs.clear();
         FileResource fr = new FileResource();
         for (String word : fr.words()) {
         int index = myWords.indexOf(word.toLowerCase());
             if(index == -1) {
-                myWords.add(word);
+                myWords.add(word.toLowerCase());
                 myFreqs.add(1);
             } else {
                 int freq = myFreqs.get(index);
@@ -40,8 +41,10 @@ public class WordFrequencies {
             System.out.println(freq + "\t" +word);
         }
         System.out.println("Number of unique words: " + myWords.size());
+        
+        
         int maxIndex = findIndexOfMax();
-        System.out.println("Max Index: " + maxIndex + "\t" + "Word is " + myWords.get(maxIndex-1));
+        System.out.println("Max Counts: " + myFreqs.get(maxIndex) + "\t" + "Word is " + myWords.get(maxIndex));
     }
 
     private int findIndexOfMax() {
@@ -51,6 +54,6 @@ public class WordFrequencies {
                 maxIndex = i;
             }
         }
-        return maxIndex+1;
+        return maxIndex;
     }
 }
