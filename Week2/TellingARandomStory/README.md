@@ -1,0 +1,1 @@
+https://d18ky98rnyall9.cloudfront.net/_76bdb56d2ae3f1eaa10096a4ede6279e_Programming-Exercise---Random-Story.pdf?Expires=1610841600&Signature=KAEeXV9rVvCjDRagz21qB0aU~StTVpYU9hYp7Ug9i3Dh6Ut1bR6lIixvYaBsIwi8NHybLt9DXPSQeu~zAnRfEev6ALHCTzsEor08C8kKsVwwpKgZrMFW~PUcfR9r8TJbNqIC~VaC~NDXBfs8FD5MYCuSDx4sEDTRZXVX8zUJVCw_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
