@@ -33,15 +33,15 @@ public class WordFrequencies {
 
     public void tester() {
         findUnique();
-        System.out.println("Number of unique words: " + myWords.size());
+        
         for (int i = 0; i < myWords.size(); i++) {
             String word = myWords.get(i);
             int freq = myFreqs.get(i);
-            System.out.println("Word: " + word + "\t" + "Frequence: " +freq);
+            System.out.println(freq + "\t" +word);
         }
-        
+        System.out.println("Number of unique words: " + myWords.size());
         int maxIndex = findIndexOfMax();
-        System.out.println("Max Index: " + maxIndex);
+        System.out.println("Max Index: " + maxIndex + "\t" + "Word is " + myWords.get(maxIndex-1));
     }
 
     private int findIndexOfMax() {
