@@ -1,0 +1,1 @@
+https://d18ky98rnyall9.cloudfront.net/_854a81b3fde36f490a8ebb6eda7303ca_Pprogramming-Exercise---Improving-GladLibs.pdf?Expires=1610928000&Signature=T~xUKh~KIQsOTmAOSJDti1XRP1DO~btAWssA34ScxIaN0HePVJXhL8JxdWPUYO9-5Dxq6R~NjH0hjsB-ZrLA590QrZp05wos-xkMe9uunSIxVI0AifgVOq7eJF0rloAywBNbT3ZM47iSIB9-GzLzAK6sFetNHXoCzinARl1pL6c_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
