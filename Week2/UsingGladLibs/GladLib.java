@@ -92,10 +92,13 @@ public class GladLib {
         String prefix = w.substring(0,first);
         String suffix = w.substring(last+1);
         String sub = getSubstitute(w.substring(first+1,last));
-        while(usedWord.contains(sub) && sub != "**UNKNOWN**") {
-            sub = getSubstitute(w.substring(first + 1, last));
+        while(true) {
+            sub = getSubstitute(w.substring(first+1,last));
+            if (! usedWord.contains(sub)) {
+                usedWord.add(sub);
+                break;
+            }
         }
-        usedWord.add(sub);
         counts++;
         return prefix+sub+suffix;
     }
