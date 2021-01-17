@@ -1,0 +1,1 @@
+https://d18ky98rnyall9.cloudfront.net/_462c23fd0eeaf12efe2f668156efa413_Programming-Exercise---Known-Language-Key-Length.pdf?Expires=1611014400&Signature=Kf87Kuq56i2ldxdQ9zSjpEOZDVt~wLJPkiSqLyxpsK69Cx-d76a0-pVTryldXiD7sE3RyO1MCBKyq2obVV4JZhvMpuUElI31ZhR8gs7ZKQeHHg91Zmz5m8gRlvnPkWh~OkaRK31R3RuqFGBzxnl8U3ogag7qscYmDf1-tAE9izs_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
