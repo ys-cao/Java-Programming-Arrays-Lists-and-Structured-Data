@@ -69,12 +69,14 @@ public class LogAnalyzer
      }
      
      public int countUniqueIPsInRange(int low, int high) {
-         int count = 0;
+         ArrayList<String> ips = new ArrayList<String>();
          for (LogEntry le : records) {
              if (le.getStatusCode() >= low && le.getStatusCode() <= high) {
-                 count++;
+                 if (!ips.contains(le.getIpAddress())){
+                     ips.add(le.getIpAddress());
+                 }
              }
          }
-         return count;
+         return ips.size();
      }
 }
