@@ -85,5 +85,14 @@ public class WordsInFiles {
                 System.out.println("\n");
             }
         }
+        
+        int count = 0;
+        for (String word : wordsMap.keySet()) {
+            ArrayList<String> currArray = wordsMap.get(word);
+            if (currArray.size() == maxNumber()) {
+                count++;
+            }
+        }
+        System.out.println("How many words are there that occur in those files?: " + count);
     }
 }
